@@ -1,0 +1,4304 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>반가사유상 도자기 괄사 | KOREAN BEAUTY OBJECT</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+>
+
+
+<style>
+
+/* =========================================================
+   RESET
+========================================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f0e8;
+    color:#3f3933;
+    font-family:"Noto Sans KR", sans-serif;
+    line-height:1.75;
+    letter-spacing:-0.025em;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+button{
+    font-family:inherit;
+    cursor:pointer;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+/* =========================================================
+   COLOR SYSTEM
+========================================================= */
+
+:root{
+
+    --white:#fffdf8;
+    --ivory:#f5f1e8;
+    --cream:#ebe5da;
+
+    --porcelain:#e7e2d8;
+    --warm-gray:#d9d2c7;
+    --light-gray:#ddd8cf;
+
+    --line:#d8d0c4;
+    --line-dark:#c9c0b4;
+
+    --ink:#393530;
+    --ink-light:#625b53;
+    --black:#24211e;
+
+    --brown:#654f3e;
+    --brown-dark:#3e3027;
+    --brown-light:#8a7663;
+
+    --gold:#a58a5a;
+    --gold-light:#d1bd8f;
+    --gold-pale:#e4d7b9;
+
+    --celadon:#9ba7a1;
+    --celadon-dark:#707c76;
+    --celadon-light:#edf0ec;
+
+    --shadow:0 24px 60px rgba(57,48,40,0.13);
+
+}
+
+
+/* =========================================================
+   COMMON
+========================================================= */
+
+.container{
+    width:min(1180px, calc(100% - 40px));
+    margin:0 auto;
+}
+
+.section{
+    padding:125px 0;
+    position:relative;
+    overflow:hidden;
+}
+
+.section-head{
+    text-align:center;
+    margin-bottom:65px;
+}
+
+.section-kicker{
+    display:inline-block;
+    margin-bottom:15px;
+
+    color:#806b52;
+
+    font-family:"Gowun Batang", serif;
+
+    font-size:13px;
+    letter-spacing:0.18em;
+}
+
+.section-title{
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:clamp(30px,4vw,48px);
+
+    line-height:1.4;
+
+    font-weight:600;
+}
+
+.section-desc{
+    max-width:700px;
+
+    margin:20px auto 0;
+
+    color:#756d64;
+
+    font-size:15px;
+}
+
+.gold-line{
+    width:48px;
+    height:1px;
+
+    margin:25px auto;
+
+    background:var(--gold);
+
+    position:relative;
+}
+
+.gold-line::before,
+.gold-line::after{
+    content:"";
+
+    position:absolute;
+
+    top:50%;
+
+    width:4px;
+    height:4px;
+
+    border:1px solid var(--gold);
+
+    transform:translateY(-50%) rotate(45deg);
+
+    background:var(--white);
+}
+
+.gold-line::before{
+    left:-8px;
+}
+
+.gold-line::after{
+    right:-8px;
+}
+
+
+/* =========================================================
+   TRADITIONAL DECORATION
+========================================================= */
+
+.traditional-decoration{
+    position:absolute;
+
+    pointer-events:none;
+
+    font-family:"Noto Serif KR", serif;
+
+    color:#7b6a58;
+
+    opacity:0.095;
+
+    user-select:none;
+
+    font-weight:500;
+}
+
+.traditional-decoration.gold{
+    color:var(--gold);
+
+    opacity:0.12;
+}
+
+
+/* =========================================================
+   TOP BANNER
+========================================================= */
+
+.top-banner{
+    padding:10px 20px;
+
+    background:var(--brown-dark);
+
+    color:#eee6d8;
+
+    text-align:center;
+
+    font-size:11px;
+
+    letter-spacing:0.16em;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.site-header{
+    position:relative;
+    z-index:50;
+
+    background:rgba(255,253,248,0.97);
+
+    border-bottom:1px solid rgba(62,52,43,0.10);
+}
+
+.header-inner{
+    height:76px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+}
+
+.logo{
+    display:flex;
+    flex-direction:column;
+}
+
+.logo-main{
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:20px;
+
+    font-weight:600;
+}
+
+.logo-sub{
+    margin-top:1px;
+
+    color:#88725d;
+
+    font-size:8px;
+
+    letter-spacing:0.22em;
+}
+
+.header-nav{
+    display:flex;
+    gap:9px;
+}
+
+.header-nav button{
+    padding:8px 15px;
+
+    background:transparent;
+
+    border:1px solid var(--line);
+
+    border-radius:50px;
+
+    color:#5d554d;
+
+    font-size:11px;
+
+    transition:0.25s;
+}
+
+.header-nav button:hover{
+    background:var(--cream);
+
+    border-color:#c6baaa;
+}
+
+
+/* =========================================================
+   01. HERO
+========================================================= */
+
+.hero{
+    padding:55px 0 100px;
+
+    background:
+        radial-gradient(
+            circle at 88% 13%,
+            rgba(165,138,86,0.09),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 8% 90%,
+            rgba(105,91,77,0.055),
+            transparent 26%
+        ),
+        linear-gradient(
+            135deg,
+            #fbfaf6 0%,
+            #eee9df 100%
+        );
+}
+
+.hero-grid{
+    display:grid;
+
+    grid-template-columns:1.08fr 0.92fr;
+
+    gap:72px;
+
+    align-items:center;
+}
+
+
+/* =========================================================
+   HERO IMAGE
+========================================================= */
+
+.hero-image-area{
+    position:relative;
+}
+
+.hero-image-box{
+    position:relative;
+
+    width:100%;
+
+    min-height:650px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#e3ddd3;
+
+    border:1px solid rgba(68,57,47,0.12);
+
+    border-radius:24px;
+
+    box-shadow:var(--shadow);
+}
+
+.hero-image-box::after{
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    pointer-events:none;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,0.16),
+            transparent 35%,
+            rgba(63,50,39,0.04)
+        );
+
+    z-index:1;
+}
+
+.hero-image-box img{
+    width:100%;
+    height:650px;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    transition:transform 0.5s ease;
+
+    position:relative;
+
+    z-index:0;
+}
+
+.hero-image-box:hover img{
+    transform:scale(1.015);
+}
+
+
+/* =========================================================
+   IMAGE FRAME
+========================================================= */
+
+.image-frame{
+    position:absolute;
+
+    inset:18px;
+
+    border:1px solid rgba(255,255,255,0.38);
+
+    pointer-events:none;
+
+    z-index:2;
+}
+
+
+/* =========================================================
+   IMAGE LABEL
+========================================================= */
+
+.image-label{
+    position:absolute;
+
+    left:25px;
+    top:25px;
+
+    z-index:3;
+
+    width:58px;
+    height:58px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border:1px solid rgba(111,91,68,0.48);
+
+    border-radius:50%;
+
+    background:rgba(255,253,249,0.78);
+
+    color:#685541;
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:11px;
+
+    line-height:1.4;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(50,40,30,0.06);
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.hero-content{
+    padding:0;
+}
+
+.hero-eyebrow{
+    display:block;
+
+    margin-bottom:8px;
+
+    color:#806a53;
+
+    font-size:12px;
+
+    letter-spacing:0.16em;
+}
+
+.hero-title{
+    margin-top:0;
+    margin-bottom:10px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:clamp(40px,5vw,63px);
+
+    line-height:1.25;
+
+    font-weight:600;
+}
+
+.hero-title span{
+    color:#806a53;
+}
+
+.hero-subtitle{
+    margin-bottom:10px;
+
+    color:#64584e;
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:21px;
+
+    line-height:1.6;
+}
+
+.hero-description{
+    margin:0 0 12px;
+
+    color:#655b52;
+
+    font-size:13px;
+
+    line-height:1.6;
+
+    word-break:keep-all;
+}
+
+
+/* =========================================================
+   HERO VALUE
+========================================================= */
+
+.hero-value{
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    height:50px;
+
+    margin:10px 0;
+
+    border-top:1px solid rgba(80,65,50,0.14);
+
+    border-bottom:1px solid rgba(80,65,50,0.14);
+}
+
+.hero-value-item{
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:5px 6px;
+
+    text-align:center;
+
+    border-right:1px solid rgba(80,65,50,0.10);
+}
+
+.hero-value-item:last-child{
+    border-right:none;
+}
+
+.hero-value-item strong{
+    display:block;
+
+    margin-bottom:2px;
+
+    color:#4b4035;
+
+    font-size:10px;
+
+    line-height:1.1;
+
+    font-weight:700;
+
+    letter-spacing:0.8px;
+}
+
+.hero-value-item span{
+    display:block;
+
+    color:#82786d;
+
+    font-size:10px;
+
+    line-height:1.2;
+}
+
+
+/* =========================================================
+   PRICE
+========================================================= */
+
+.price-box{
+    margin:7px 0;
+
+    padding:0;
+}
+
+.price-label{
+    display:block;
+
+    color:#958c82;
+
+    font-size:11px;
+}
+
+.price{
+    color:var(--brown-dark);
+
+    font-size:30px;
+
+    font-weight:700;
+}
+
+
+/* =========================================================
+   QUANTITY
+========================================================= */
+
+.quantity-row{
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin:7px 0;
+}
+
+.quantity-label{
+    color:#766e65;
+
+    font-size:13px;
+}
+
+.quantity-control{
+    height:44px;
+
+    display:flex;
+
+    align-items:center;
+
+    border:1px solid var(--line);
+
+    background:#fffdfa;
+}
+
+.quantity-control button{
+    width:42px;
+    height:42px;
+
+    border:0;
+
+    background:transparent;
+
+    color:var(--ink);
+
+    font-size:18px;
+
+    transition:0.2s;
+}
+
+.quantity-control button:hover{
+    background:var(--cream);
+}
+
+.quantity-number{
+    width:44px;
+
+    text-align:center;
+
+    color:var(--brown-dark);
+
+    font-size:14px;
+
+    font-weight:600;
+}
+
+
+/* =========================================================
+   PURCHASE BUTTONS
+========================================================= */
+
+.action-grid{
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:9px;
+
+    margin:7px 0;
+}
+
+.action-button{
+    height:56px;
+
+    border-radius:3px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:0.25s;
+}
+
+.buy-button{
+    border:1px solid var(--brown-dark);
+
+    background:var(--brown-dark);
+
+    color:#fffdfa;
+}
+
+.buy-button:hover{
+    background:#2c241e;
+}
+
+.cart-button{
+    border:1px solid #6d5b49;
+
+    background:#fffdfa;
+
+    color:#5a4737;
+}
+
+.cart-button:hover{
+    background:#eee8dd;
+}
+
+.wish-button{
+    grid-column:1 / -1;
+
+    height:48px;
+
+    border:1px solid #aa9265;
+
+    background:transparent;
+
+    color:#786346;
+
+    border-radius:3px;
+
+    font-size:13px;
+
+    transition:0.25s;
+}
+
+.wish-button:hover,
+.wish-button.active{
+    background:#eee6d4;
+
+    border-color:#92764c;
+
+    color:#684d31;
+}
+
+
+/* =========================================================
+   HERO TAGS
+========================================================= */
+
+.hero-tags{
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:5px;
+
+    margin:7px 0 0;
+}
+
+.hero-tag{
+    padding:4px 8px;
+
+    border:1px solid #d4cbbd;
+
+    border-radius:50px;
+
+    background:rgba(255,253,249,0.68);
+
+    color:#71685e;
+
+    font-size:9px;
+}
+
+
+/* =========================================================
+   02. TRADITION × MODERN BEAUTY
+========================================================= */
+
+.tradition-section{
+    background:var(--white);
+}
+
+.tradition-grid{
+    display:grid;
+
+    grid-template-columns:0.92fr 1.08fr;
+
+    gap:75px;
+
+    align-items:center;
+}
+
+
+/* =========================================================
+   TRADITION VISUAL
+========================================================= */
+
+.tradition-visual{
+    position:relative;
+
+    min-height:500px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(255,255,255,0.65),
+            transparent 45%
+        ),
+        linear-gradient(
+            145deg,
+            #e5dfd4,
+            #f4f1e9
+        );
+
+    border-radius:20px;
+
+    border:1px solid rgba(100,82,64,0.08);
+}
+
+
+/* =========================================================
+   TRADITION IMAGE
+========================================================= */
+
+.tradition-image{
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    z-index:0;
+
+    display:block;
+}
+
+
+/* 이미지 위 은은한 오버레이 */
+
+.tradition-visual::after{
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,0.18),
+            transparent 45%,
+            rgba(50,40,30,0.06)
+        );
+
+    z-index:1;
+
+    pointer-events:none;
+}
+
+
+/* =========================================================
+   TRADITION CIRCLE
+   이미지 위에 정상적으로 겹쳐지도록 absolute
+========================================================= */
+
+.tradition-visual::before{
+    content:"";
+
+    position:absolute;
+
+    width:410px;
+    height:410px;
+
+    border:1px solid rgba(126,102,72,0.10);
+
+    border-radius:50%;
+
+    z-index:2;
+}
+
+.tradition-circle{
+    position:absolute;
+
+    width:360px;
+    height:360px;
+
+    border:1px solid rgba(110,91,67,0.20);
+
+    border-radius:50%;
+
+    z-index:2;
+}
+
+.tradition-circle.two{
+    position:absolute;
+
+    width:280px;
+    height:280px;
+
+    border-color:rgba(165,138,86,0.30);
+
+    z-index:2;
+}
+
+
+/* =========================================================
+   TRADITION TEXT
+========================================================= */
+
+.tradition-text{
+    position:relative;
+
+    z-index:3;
+
+    text-align:center;
+}
+
+.tradition-symbol{
+    margin-bottom:15px;
+
+    color:#725c45;
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:70px;
+
+    opacity:0.75;
+}
+
+.tradition-text strong{
+    display:block;
+
+    color:var(--brown);
+
+    font-family:"Gowun Batang", serif;
+
+    font-size:18px;
+
+    font-weight:400;
+
+    letter-spacing:0.08em;
+}
+
+
+/* =========================================================
+   TRADITION CONTENT
+========================================================= */
+
+.tradition-content h3{
+    margin-bottom:25px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:35px;
+
+    line-height:1.5;
+}
+
+.tradition-content h3 span{
+    color:#806a53;
+}
+
+.tradition-content p{
+    margin-bottom:18px;
+
+    color:#716960;
+
+    font-size:15px;
+}
+
+.tradition-points{
+    margin-top:30px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:12px;
+}
+
+.tradition-point{
+    padding:17px;
+
+    background:#f6f2ea;
+
+    border:1px solid #e1d9cc;
+
+    transition:0.25s;
+}
+
+.tradition-point:hover{
+    background:#eee8dd;
+
+    transform:translateY(-2px);
+}
+
+.tradition-point strong{
+    display:block;
+
+    margin-bottom:4px;
+
+    color:var(--brown);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:14px;
+}
+
+.tradition-point span{
+    color:#7b7369;
+
+    font-size:12px;
+}
+
+
+/* =========================================================
+   03. K-BEAUTY
+========================================================= */
+
+.kbeauty-section{
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(165,138,86,0.055),
+            transparent 25%
+        ),
+        linear-gradient(
+            180deg,
+            #eeeae1 0%,
+            #f7f4ed 100%
+        );
+}
+
+.kbeauty-main-copy{
+    max-width:820px;
+
+    margin:0 auto 65px;
+
+    text-align:center;
+}
+
+.kbeauty-main-copy h3{
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:clamp(27px,4vw,43px);
+
+    line-height:1.55;
+}
+
+.kbeauty-main-copy h3 span{
+    color:#806a53;
+}
+
+.kbeauty-main-copy p{
+    margin-top:20px;
+
+    color:#756d64;
+
+    font-size:15px;
+}
+
+.kbeauty-grid{
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:18px;
+}
+
+.kbeauty-card{
+    position:relative;
+
+    min-height:285px;
+
+    padding:36px 30px;
+
+    background:rgba(255,253,249,0.84);
+
+    border:1px solid rgba(82,70,59,0.11);
+
+    transition:0.3s;
+}
+
+.kbeauty-card:hover{
+    transform:translateY(-4px);
+
+    box-shadow:0 16px 35px rgba(65,54,44,0.08);
+}
+
+.card-number{
+    color:var(--gold);
+
+    font-family:"Gowun Batang", serif;
+
+    font-size:12px;
+
+    letter-spacing:0.13em;
+}
+
+.kbeauty-card h4{
+    margin:18px 0 13px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:21px;
+}
+
+.kbeauty-card p{
+    color:#756d64;
+
+    font-size:13px;
+}
+
+.card-decoration{
+    position:absolute;
+
+    right:22px;
+    bottom:15px;
+
+    color:#76634e;
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:48px;
+
+    opacity:0.11;
+}
+
+
+/* =========================================================
+   04. PRODUCT DETAILS
+========================================================= */
+
+.product-section{
+    background:var(--white);
+}
+
+
+/* =========================================================
+   MATERIAL
+========================================================= */
+
+.material-intro{
+    display:grid;
+
+    grid-template-columns:0.85fr 1.15fr;
+
+    gap:55px;
+
+    margin-bottom:65px;
+
+    padding:60px;
+
+    background:#eee9df;
+
+    border-left:3px solid #9b825e;
+}
+
+.material-label{
+    color:#806a53;
+
+    font-size:12px;
+
+    letter-spacing:0.17em;
+}
+
+.material-intro h3{
+    margin-top:13px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:34px;
+
+    line-height:1.5;
+}
+
+.material-intro p{
+    color:#716960;
+
+    font-size:15px;
+}
+
+
+/* =========================================================
+   FEATURE CARDS
+========================================================= */
+
+.product-features{
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:15px;
+
+    margin-bottom:75px;
+}
+
+.product-feature{
+    min-height:230px;
+
+    padding:30px 24px;
+
+    background:#fffdfa;
+
+    border:1px solid var(--line);
+
+    transition:0.25s;
+}
+
+.product-feature:hover{
+    border-color:#c9bda9;
+
+    transform:translateY(-3px);
+}
+
+.feature-number{
+    display:flex;
+
+    width:43px;
+    height:43px;
+
+    align-items:center;
+    justify-content:center;
+
+    margin-bottom:20px;
+
+    border:1px solid #9d896b;
+
+    border-radius:50%;
+
+    color:#745d43;
+
+    font-family:"Gowun Batang", serif;
+
+    font-size:12px;
+}
+
+.product-feature h4{
+    margin-bottom:9px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:18px;
+}
+
+.product-feature p{
+    color:#756d64;
+
+    font-size:12px;
+}
+
+
+/* =========================================================
+   SPEC
+========================================================= */
+
+.spec-area{
+    display:grid;
+
+    grid-template-columns:0.75fr 1.25fr;
+
+    gap:60px;
+
+    align-items:start;
+}
+
+.spec-copy h3{
+    margin-top:10px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:32px;
+
+    line-height:1.55;
+}
+
+.spec-copy p{
+    margin-top:17px;
+
+    color:#766e65;
+
+    font-size:13px;
+}
+
+.spec-table{
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:#fffdfa;
+}
+
+.spec-table tr{
+    border-bottom:1px solid var(--line);
+}
+
+.spec-table th,
+.spec-table td{
+    padding:17px 15px;
+
+    text-align:left;
+
+    font-size:13px;
+}
+
+.spec-table th{
+    width:30%;
+
+    background:#f1ece3;
+
+    color:var(--brown);
+
+    font-weight:600;
+}
+
+.spec-table td{
+    color:#716960;
+}
+
+
+/* =========================================================
+   PRODUCT SET
+========================================================= */
+
+.product-set{
+    margin-top:75px;
+
+    padding-top:55px;
+
+    border-top:1px solid var(--line);
+}
+
+.product-set h3{
+    margin-bottom:27px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:28px;
+}
+
+.set-grid{
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+}
+
+.set-card{
+    padding:27px;
+
+    background:#f4efe6;
+
+    border:1px solid #ded5c8;
+}
+
+.set-card-number{
+    color:var(--gold);
+
+    font-family:"Gowun Batang", serif;
+
+    font-size:12px;
+}
+
+.set-card h4{
+    margin-top:9px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:17px;
+}
+
+.set-card p{
+    margin-top:5px;
+
+    color:#7a7268;
+
+    font-size:12px;
+}
+
+
+/* =========================================================
+   05. HOW TO USE
+========================================================= */
+
+.use-section{
+    background:
+        radial-gradient(
+            circle at 90% 15%,
+            rgba(165,138,86,0.055),
+            transparent 25%
+        ),
+        #eeeae1;
+}
+
+.use-intro{
+    max-width:720px;
+
+    margin:-25px auto 55px;
+
+    text-align:center;
+
+    color:#746c63;
+
+    font-size:14px;
+}
+
+.use-grid{
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+}
+
+.use-card{
+    overflow:hidden;
+
+    background:#fffdfa;
+
+    border:1px solid #dcd4c8;
+
+    transition:0.3s;
+}
+
+.use-card:hover{
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 35px rgba(65,54,44,0.08);
+}
+
+
+/* =========================================================
+   USAGE IMAGE
+========================================================= */
+
+.use-image{
+    position:relative;
+
+    height:310px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#e2ddd4;
+}
+
+.use-image img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+}
+
+.image-placeholder{
+    color:#898178;
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:13px;
+
+    text-align:center;
+}
+
+.use-content{
+    padding:27px 25px;
+}
+
+.use-number{
+    color:var(--gold);
+
+    font-family:"Gowun Batang", serif;
+
+    font-size:12px;
+
+    letter-spacing:0.12em;
+}
+
+.use-content h3{
+    margin:7px 0 10px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:21px;
+}
+
+.use-content p{
+    color:#756d64;
+
+    font-size:13px;
+}
+
+.use-notice{
+    margin-top:40px;
+
+    padding:22px 25px;
+
+    background:#e5dfd4;
+
+    border-left:3px solid var(--gold);
+
+    color:#716960;
+
+    font-size:12px;
+}
+
+.use-notice strong{
+    color:var(--brown-dark);
+}
+
+
+/* =========================================================
+   06. PACKAGE
+========================================================= */
+
+.package-section{
+    background:var(--white);
+}
+
+.package-layout{
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:65px;
+
+    align-items:center;
+}
+
+.package-photo{
+    position:relative;
+
+    overflow:hidden;
+
+    min-height:560px;
+
+    background:#ded8ce;
+
+    border-radius:22px;
+
+    box-shadow:var(--shadow);
+}
+
+.package-photo img{
+    width:100%;
+    height:560px;
+
+    object-fit:cover;
+
+    object-position:center;
+}
+
+.package-photo-frame{
+    position:absolute;
+
+    inset:18px;
+
+    border:1px solid rgba(255,255,255,0.38);
+
+    pointer-events:none;
+
+    z-index:2;
+}
+
+
+/* =========================================================
+   PACKAGE COPY
+========================================================= */
+
+.package-copy h3{
+    margin-bottom:23px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:35px;
+
+    line-height:1.5;
+}
+
+.package-copy > p{
+    color:#716960;
+
+    font-size:14px;
+}
+
+.package-list{
+    margin-top:30px;
+
+    border-top:1px solid var(--line);
+}
+
+.package-item{
+    display:flex;
+
+    gap:17px;
+
+    padding:18px 0;
+
+    border-bottom:1px solid var(--line);
+}
+
+.package-item-number{
+    flex:0 0 auto;
+
+    width:27px;
+    height:27px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    border:1px solid #a48b66;
+
+    border-radius:50%;
+
+    color:#745d43;
+
+    font-size:10px;
+}
+
+.package-item h4{
+    margin-bottom:3px;
+
+    color:var(--brown-dark);
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:15px;
+}
+
+.package-item p{
+    color:#786f66;
+
+    font-size:12px;
+}
+
+
+/* =========================================================
+   PACKAGE CAUTION
+========================================================= */
+
+.package-caution{
+    margin-top:50px;
+
+    padding:22px 25px;
+
+    background:#f0ebe2;
+
+    border:1px solid #ddd4c7;
+
+    color:#756d64;
+
+    font-size:12px;
+}
+
+
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.final-cta{
+    position:relative;
+
+    overflow:hidden;
+
+    padding:105px 0;
+
+    background:
+        radial-gradient(
+            circle at 15% 30%,
+            rgba(165,138,86,0.13),
+            transparent 25%
+        ),
+        linear-gradient(
+            135deg,
+            #3d3129,
+            #514339
+        );
+
+    text-align:center;
+
+    color:#f6f0e6;
+}
+
+.final-cta h2{
+    color:#f6f0e6;
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:clamp(30px,4vw,45px);
+
+    line-height:1.5;
+}
+
+.final-cta p{
+    max-width:650px;
+
+    margin:18px auto 35px;
+
+    color:#d7cfc2;
+
+    font-size:14px;
+}
+
+.final-button{
+    min-width:240px;
+
+    height:55px;
+
+    border:1px solid var(--gold-light);
+
+    background:transparent;
+
+    color:#f8f2e8;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:0.25s;
+}
+
+.final-button:hover{
+    background:var(--gold);
+
+    border-color:var(--gold);
+
+    color:white;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer{
+    padding:55px 0 30px;
+
+    background:#29231f;
+
+    color:#a99f94;
+}
+
+.footer-grid{
+    display:grid;
+
+    grid-template-columns:1.3fr 1fr 1fr;
+
+    gap:50px;
+
+    padding-bottom:40px;
+
+    border-bottom:1px solid rgba(255,255,255,0.09);
+}
+
+.footer-brand{
+    margin-bottom:13px;
+
+    color:#eee7db;
+
+    font-family:"Noto Serif KR", serif;
+
+    font-size:20px;
+}
+
+.footer-title{
+    margin-bottom:11px;
+
+    color:#ddd3c6;
+
+    font-size:12px;
+
+    letter-spacing:0.05em;
+}
+
+.footer-text{
+    color:#9d9489;
+
+    font-size:11px;
+
+    line-height:1.9;
+}
+
+.footer-bottom{
+    padding-top:23px;
+
+    color:#756d64;
+
+    font-size:10px;
+}
+
+
+/* =========================================================
+   TOAST
+========================================================= */
+
+.toast{
+    position:fixed;
+
+    z-index:9999;
+
+    left:50%;
+    bottom:30px;
+
+    transform:translate(-50%,20px);
+
+    padding:13px 22px;
+
+    border-radius:50px;
+
+    background:rgba(53,44,37,0.96);
+
+    color:white;
+
+    font-size:12px;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:0.3s;
+}
+
+.toast.show{
+    opacity:1;
+
+    transform:translate(-50%,0);
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+========================================================= */
+
+button:focus-visible,
+a:focus-visible{
+    outline:2px solid #92764f;
+
+    outline-offset:3px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:1000px){
+
+    .hero-grid{
+        grid-template-columns:1fr;
+
+        gap:50px;
+    }
+
+    .hero-image-box{
+        min-height:600px;
+    }
+
+    .hero-image-box img{
+        height:600px;
+    }
+
+    .tradition-grid,
+    .material-intro,
+    .spec-area,
+    .package-layout{
+        grid-template-columns:1fr;
+    }
+
+    .product-features{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .kbeauty-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+
+@media(max-width:700px){
+
+    .container{
+        width:calc(100% - 28px);
+    }
+
+    .section{
+        padding:85px 0;
+    }
+
+    .top-banner{
+        font-size:9px;
+
+        letter-spacing:0.08em;
+    }
+
+    .header-inner{
+        height:68px;
+    }
+
+    .logo-main{
+        font-size:16px;
+    }
+
+    .header-nav button{
+        padding:6px 10px;
+
+        font-size:9px;
+    }
+
+    .hero{
+        padding:25px 0 70px;
+    }
+
+    .hero-image-box{
+        height:440px;
+        min-height:440px;
+    }
+
+    .hero-image-box img{
+        height:440px;
+    }
+
+    .hero-title{
+        font-size:38px;
+    }
+
+    .hero-subtitle{
+        font-size:18px;
+    }
+
+    .hero-value{
+        height:auto;
+
+        grid-template-columns:1fr;
+    }
+
+    .hero-value-item{
+        padding:10px 5px;
+
+        border-right:none;
+
+        border-bottom:1px solid rgba(80,65,50,0.10);
+    }
+
+    .hero-value-item:last-child{
+        border-bottom:none;
+    }
+
+    .action-grid{
+        grid-template-columns:1fr;
+    }
+
+    .wish-button{
+        grid-column:auto;
+    }
+
+    .tradition-visual{
+        min-height:370px;
+    }
+
+    .tradition-visual::before{
+        width:320px;
+        height:320px;
+    }
+
+    .tradition-circle{
+        width:280px;
+        height:280px;
+    }
+
+    .tradition-circle.two{
+        width:210px;
+        height:210px;
+    }
+
+    .tradition-content h3{
+        font-size:28px;
+    }
+
+    .tradition-points{
+        grid-template-columns:1fr;
+    }
+
+    .kbeauty-grid{
+        grid-template-columns:1fr;
+    }
+
+    .product-features{
+        grid-template-columns:1fr;
+    }
+
+    .material-intro{
+        padding:35px 25px;
+    }
+
+    .material-intro h3{
+        font-size:27px;
+    }
+
+    .spec-table th,
+    .spec-table td{
+        padding:13px 10px;
+
+        font-size:11px;
+    }
+
+    .set-grid{
+        grid-template-columns:1fr;
+    }
+
+    .use-grid{
+        grid-template-columns:1fr;
+    }
+
+    .use-image{
+        height:280px;
+    }
+
+    .package-photo{
+        min-height:400px;
+    }
+
+    .package-photo img{
+        height:400px;
+    }
+
+    .package-copy h3{
+        font-size:28px;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+
+        gap:30px;
+    }
+
+}
+
+
+/* =========================================================
+   IMAGE RESPONSIVE FIX
+========================================================= */
+
+.hero-image-box img,
+.package-photo img,
+.tradition-image{
+    max-width:none;
+}
+
+
+/* =========================================================
+   MOBILE IMAGE FIX
+========================================================= */
+
+@media(max-width:700px){
+
+    .hero-image-box img{
+        width:100%;
+        max-width:none;
+    }
+
+    .package-photo img{
+        width:100%;
+        max-width:none;
+    }
+
+    .tradition-image{
+        width:100%;
+        max-width:none;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     TOP BANNER
+========================================================= -->
+
+<div class="top-banner">
+
+    KOREAN BEAUTY OBJECT
+    ·
+    TRADITION × CERAMIC × SELF CARE
+
+</div>
+
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header class="site-header">
+
+    <div class="container header-inner">
+
+
+        <a href="#" class="logo">
+
+            <span class="logo-main">
+                KOREAN BEAUTY OBJECT
+            </span>
+
+            <span class="logo-sub">
+                TRADITION × BEAUTY
+            </span>
+
+        </a>
+
+
+        <nav class="header-nav">
+
+            <button
+                type="button"
+                onclick="goToSection('product')"
+            >
+                PRODUCT
+            </button>
+
+            <button
+                type="button"
+                onclick="goToSection('use')"
+            >
+                HOW TO USE
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     01. PRODUCT HERO
+========================================================= -->
+
+<section class="hero" id="product">
+
+
+    <div
+        class="traditional-decoration"
+        style="
+            top:35px;
+            right:5%;
+            font-size:95px;
+        "
+    >
+        鶴
+    </div>
+
+
+    <div
+        class="traditional-decoration gold"
+        style="
+            bottom:35px;
+            left:4%;
+            font-size:90px;
+        "
+    >
+        蓮
+    </div>
+
+
+    <div class="container">
+
+
+        <!-- =================================================
+             HERO GRID
+        ================================================= -->
+
+        <div class="hero-grid">
+
+
+            <!-- =================================================
+                 PRODUCT IMAGE
+            ================================================= -->
+
+            <div class="hero-image-area">
+
+                <div class="hero-image-box">
+
+                    <div class="image-frame"></div>
+
+
+                    <div class="image-label">
+
+                        韓<br>
+                        美
+
+                    </div>
+
+
+                    <img
+                        src="괄사3.jpeg"
+                        alt="반가사유상 도자기 괄사와 전용 파우치"
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 PRODUCT INFORMATION
+            ================================================= -->
+
+            <div class="hero-content">
+
+
+                <!-- HEADLINE -->
+
+                <h1 class="hero-title">
+
+                    반가사유상<br>
+
+                    <span>
+                        도자기 괄사
+                    </span>
+
+                </h1>
+
+
+                <!-- SUB HEADLINE -->
+
+                <h2 class="hero-subtitle">
+
+                    한국의 전통문화를<br>
+                    현대적인 뷰티로 재해석하다
+
+                </h2>
+
+
+                <!-- BODY COPY -->
+
+                <p class="hero-description">
+
+                    <p class="hero-description">
+    반가사유상의 아름다운 형태와 한국적인 감성을 담은 도자기 괄사입니다.
+    <br>깔끔한 백색 도자기와 부드러운 곡선으로
+    얼굴과 바디를 편안하게 마사지하며 사용할 수 있습니다.
+    전통적인 아름다움과 실용적인 뷰티 케어를 하나의 제품으로 만나보세요.
+</p>
+
+                </p>
+
+
+                <!-- =================================================
+                     PRODUCT VALUE
+                ================================================= -->
+
+                <div class="hero-value">
+
+
+                    <div class="hero-value-item">
+
+                        <strong>
+                            CERAMIC
+                        </strong>
+
+                        <span>
+                            백색 도자기 소재
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-value-item">
+
+                        <strong>
+                            K-BEAUTY
+                        </strong>
+
+                        <span>
+                            전통에서 영감받은 디자인
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-value-item">
+
+                        <strong>
+                            SELF CARE
+                        </strong>
+
+                        <span>
+                            일상 속 셀프케어 루틴
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PRICE
+                ================================================= -->
+
+                <div class="price-box">
+
+                    <span class="price">
+
+                        27,000<span style="font-size:15px;">원</span>
+
+                    </span>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     QUANTITY
+                ================================================= -->
+
+                <div class="quantity-row">
+
+                    <span class="quantity-label">
+                        수량
+                    </span>
+
+
+                    <div class="quantity-control">
+
+
+                        <button
+                            type="button"
+                            onclick="changeQuantity(-1)"
+                        >
+                            −
+                        </button>
+
+
+                        <span
+                            class="quantity-number"
+                            id="quantity"
+                        >
+                            1
+                        </span>
+
+
+                        <button
+                            type="button"
+                            onclick="changeQuantity(1)"
+                        >
+                            +
+                        </button>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     ACTION
+                ================================================= -->
+
+                <div class="action-grid">
+
+
+                    <button
+                        type="button"
+                        class="action-button buy-button"
+                        onclick="buyNow()"
+                    >
+                        구매하기
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="action-button cart-button"
+                        onclick="addToCart()"
+                    >
+                        장바구니
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="wish-button"
+                        id="wishButton"
+                        onclick="toggleWish()"
+                    >
+                        ♡ 찜하기
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                     TAGS
+                ================================================= -->
+
+                <div class="hero-tags">
+
+
+                    <span class="hero-tag">
+                        CERAMIC
+                    </span>
+
+
+                    <span class="hero-tag">
+                        KOREAN OBJECT
+                    </span>
+
+
+                    <span class="hero-tag">
+                        SELF CARE
+                    </span>
+
+
+                    <span class="hero-tag">
+                        POUCH INCLUDED
+                    </span>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     02. TRADITION × MODERN BEAUTY
+========================================================= -->
+
+<section class="section tradition-section">
+
+
+    <div
+        class="traditional-decoration"
+        style="
+            top:40px;
+            right:3%;
+            font-size:100px;
+        "
+    >
+        鶴
+    </div>
+
+
+    <div
+        class="traditional-decoration gold"
+        style="
+            bottom:20px;
+            left:2%;
+            font-size:95px;
+        "
+    >
+        蓮
+    </div>
+
+
+    <div class="container">
+
+
+        <div class="section-head">
+
+
+            <span class="section-kicker">
+                TRADITION × MODERN BEAUTY
+            </span>
+
+
+            <h2 class="section-title">
+
+                한국의 전통문화와<br>
+                현대적인 뷰티 아이템의 만남
+
+            </h2>
+
+
+            <div class="gold-line"></div>
+
+
+            <p class="section-desc">
+
+                오래된 조형미를 그대로 재현하는 데 그치지 않고,
+                현대인의 일상에서 사용할 수 있는
+                새로운 셀프케어 오브제로 풀어냈습니다.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="tradition-grid">
+
+
+            <!-- =================================================
+                 VISUAL
+            ================================================= -->
+
+            <div class="tradition-visual">
+
+
+                <img
+                    src="괄사2.jpeg"
+                    alt="반가사유상에서 영감을 받은 도자기 괄사"
+                    class="tradition-image"
+                >
+
+
+                <div class="tradition-circle"></div>
+
+                <div class="tradition-circle two"></div>
+
+
+                <div class="tradition-text">
+
+                    <div class="tradition-symbol"></div>
+
+                    <strong></strong>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 TEXT
+            ================================================= -->
+
+            <div class="tradition-content">
+
+
+                <h3>
+
+                    전통의 아름다움을<br>
+
+                    <span>
+                        새로운 쓰임
+                    </span>
+                    으로
+
+                </h3>
+
+
+                <p>
+
+                    반가사유상은 한쪽 다리를 다른 쪽 무릎 위에 올리고
+                    손가락을 얼굴에 댄 채 깊은 생각에 잠긴 듯한
+                    고요한 조형미를 가진 불상입니다.
+
+                </p>
+
+
+                <p>
+
+                    이 제품은 이러한 한국적인 조형 이미지에서
+                    영감을 받아 현대적인 셀프케어 도구의 형태로
+                    재해석했습니다.
+
+                </p>
+
+
+                
+
+                    <p>
+    백색 도자기의 차분한 색감과 부드러운 곡선으로
+    얼굴과 바디를 편안하게 마사지할 수 있으며,
+    한국적인 전통미를 담은 디자인으로
+    일상적인 뷰티 케어에 특별한 감성을 더해줍니다.
+</p>
+
+                
+
+
+
+                <div class="tradition-points">
+
+
+                   <div class="tradition-point">
+
+    <strong>
+        전통적인 아름다움
+    </strong>
+
+    <span>
+        반가사유상의 우아한 형태와 한국적인 미감
+    </span>
+
+</div>
+
+
+<div class="tradition-point">
+
+    <strong>
+        편안한 마사지
+    </strong>
+
+    <span>
+        얼굴과 바디를 부드럽게 마사지하는 뷰티 케어
+    </span>
+
+</div>
+
+
+<div class="tradition-point">
+
+    <strong>
+        백색 도자기
+    </strong>
+
+    <span>
+        깔끔하고 위생적으로 관리하기 좋은 도자기 소재
+    </span>
+
+</div>
+
+
+<div class="tradition-point">
+
+    <strong>
+        일상 속 K-뷰티
+    </strong>
+
+    <span>
+        전통적인 감성과 실용적인 뷰티 케어를 함께
+    </span>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     03. K-BEAUTY
+========================================================= -->
+
+<section class="section kbeauty-section">
+
+
+    <div class="container">
+
+
+        <div class="section-head">
+
+
+            <span class="section-kicker">
+                K-BEAUTY · SELF CARE
+            </span>
+
+
+            <h2 class="section-title">
+
+                세계로 뻗어나가는<br>
+                한국의 뷰티 문화
+
+            </h2>
+
+
+            <div class="gold-line"></div>
+
+
+        </div>
+
+
+
+        <div class="kbeauty-main-copy">
+
+
+            
+           <p>
+    K-Beauty는 이제 하나의 뷰티 트렌드를 넘어
+    세계로 영향력을 넓혀가고 있습니다.
+</p>
+
+        </div>
+
+
+
+        <div class="kbeauty-grid">
+
+
+            <div class="kbeauty-card">
+
+
+                <span class="card-number">
+                    01 · K-BEAUTY
+                </span>
+
+
+                <h4>
+
+                    한국에서 시작된<br>
+                    뷰티 루틴
+
+                </h4>
+
+
+                <p>
+
+                    한국의 세심한 스킨케어 문화와
+                    다양한 셀프케어 루틴은
+                    K-Beauty를 대표하는 하나의 문화로
+                    소개되고 있습니다.
+
+                </p>
+
+
+                <div class="card-decoration">
+                    韓
+                </div>
+
+
+            </div>
+
+
+
+            <div class="kbeauty-card">
+
+
+                <span class="card-number">
+                    02 · GUA SHA
+                </span>
+
+
+                <h4>
+
+                    손으로 완성하는<br>
+                    셀프케어
+
+                </h4>
+
+
+                <p>
+
+                    괄사는 손으로 직접 사용하는
+                    셀프케어 도구로 알려져 있으며
+                    얼굴과 목 등 다양한 부위의
+                    관리 루틴에 활용되고 있습니다.
+
+                </p>
+
+
+                <div class="card-decoration">
+                    玉
+                </div>
+
+
+            </div>
+
+
+
+            <div class="kbeauty-card">
+
+
+                <span class="card-number">
+                    03 · BEAUTY OBJECT
+                </span>
+
+
+                <h4>
+
+                    뷰티와 오브제의<br>
+                    새로운 만남
+
+                </h4>
+
+
+                <p>
+
+                    매일 사용하는 셀프케어 도구에도
+                    소재와 형태의 아름다움을 더해
+                    기능과 디자인을 함께 생각했습니다.
+
+                </p>
+
+
+                <div class="card-decoration">
+                    蓮
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     04. PRODUCT DETAIL
+========================================================= -->
+
+<section
+    class="section product-section"
+    id="product-detail"
+>
+
+
+    <div class="container">
+
+
+        <div class="section-head">
+
+
+            <span class="section-kicker">
+                CERAMIC BEAUTY OBJECT
+            </span>
+
+
+            <h2 class="section-title">
+
+                반가사유상 도자기 괄사
+
+            </h2>
+
+
+            <div class="gold-line"></div>
+
+
+            <p class="section-desc">
+
+                실제 제품의 형태와 소재감을 중심으로
+                단정하고 컴팩트한 셀프케어 오브제로 구성했습니다.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             MATERIAL
+        ================================================= -->
+
+        <div class="material-intro">
+
+
+            <div>
+
+
+                <span class="material-label">
+                    MATERIAL · CERAMIC
+                </span>
+
+
+                <h3>
+
+                    맑고 단정한<br>
+                    백색 도자기의 미감
+
+                </h3>
+
+
+            </div>
+
+
+            <div>
+
+
+                <p>
+
+                    실제 제품은 밝은 백색 계열의 도자기 형태로
+                    제작되어 있습니다.
+                    매끈한 표면과 은은한 광택감이 특징이며,
+                    검정 패키지와 회갈색 파우치가 함께 어우러져
+                    차분하고 고급스러운 인상을 줍니다.
+
+                </p>
+
+
+                <p style="margin-top:16px;">
+
+                    제품의 한쪽에는 여러 개의 굴곡진 면이 있어
+                    부위에 따라 다른 부분을 활용할 수 있도록
+                    디자인되어 있습니다.
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             FEATURES
+        ================================================= -->
+
+        <div class="product-features">
+
+
+            <div class="product-feature">
+
+
+                <div class="feature-number">
+                    01
+                </div>
+
+
+                <h4>
+                    백색 도자기
+                </h4>
+
+
+                <p>
+
+                    깨끗하고 차분한 백색 도자기 소재로
+                    한국적인 백자에서 느껴지는
+                    단정한 분위기를 표현합니다.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="product-feature">
+
+
+                <div class="feature-number">
+                    02
+                </div>
+
+
+                <h4>
+                    입체 조형
+                </h4>
+
+
+                <p>
+
+                    제품 중앙에 입체적으로 표현된
+                    전통적인 조형 요소가
+                    제품의 시각적인 특징을 만들어줍니다.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="product-feature">
+
+
+                <div class="feature-number">
+                    03
+                </div>
+
+
+                <h4>
+                    굴곡진 마사지 면
+                </h4>
+
+
+                <p>
+
+                    한쪽에 여러 개의 굴곡이 있는
+                    실제 제품 형태를 활용해
+                    셀프케어 시 다양한 면을 사용할 수 있습니다.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="product-feature">
+
+
+                <div class="feature-number">
+                    04
+                </div>
+
+
+                <h4>
+                    보관용 파우치
+                </h4>
+
+
+                <p>
+
+                
+                    전용 파우치가 함께 구성되어
+                    제품 보관과 휴대에 활용할 수 있습니다.
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             SPEC
+        ================================================= -->
+
+        <div class="spec-area">
+
+
+            <div class="spec-copy">
+
+
+                <span class="section-kicker">
+                    PRODUCT INFORMATION
+                </span>
+
+
+                <h3>
+
+                    작은 크기에 담은<br>
+                    한국적인 뷰티 오브제
+
+                </h3>
+
+
+               
+
+            </div>
+
+
+
+            <table class="spec-table">
+
+
+                <tbody>
+
+
+
+
+
+                    <tr>
+
+                        <th>
+                            소재
+                        </th>
+
+                        <td>
+                            도자기
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th>
+                            색상
+                        </th>
+
+                        <td>
+                            백색 / 아이보리 계열
+                        </td>
+
+                    </tr>
+
+
+                   
+
+                    <tr>
+
+                        <th>
+                            사용 부위
+                        </th>
+
+                        <td>
+                            얼굴 / 목 / 바디 등
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th>
+                            제품 규격
+                        </th>
+
+                        <td>
+                            실제 제품 규격 입력
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th>
+                            제품 무게
+                        </th>
+
+                        <td>
+                            실제 제품 무게 입력
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th>
+                            상품 구성
+                        </th>
+
+                        <td>
+                            도자기 괄사 + 보관용 파우치
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th>
+                            제조 / 원산지
+                        </th>
+
+                        <td>
+                            실제 판매 정보 입력
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+
+
+            </table>
+
+
+        </div>
+
+
+
+     <!-- =================================================
+     PRODUCT SET
+================================================= -->
+
+<div class="product-set">
+
+    <h3>
+        한 번에 완성되는<br>
+        K-뷰티 셀프케어
+    </h3>
+
+    <p class="product-set-desc">
+        괄사부터 보관과 휴대까지,
+        일상에서 편리하게 사용할 수 있도록 구성했습니다.
+    </p>
+
+
+    <div class="set-grid">
+
+
+        <div class="set-card">
+
+            <span class="set-card-number">
+                01
+            </span>
+
+            <h4>
+                반가사유상 도자기 괄사
+            </h4>
+
+            <p>
+                얼굴과 바디 마사지에 활용하는<br>
+                메인 뷰티 케어 제품
+            </p>
+
+        </div>
+
+
+
+        <div class="set-card">
+
+            <span class="set-card-number">
+                02
+            </span>
+
+            <h4>
+                전용 보관 파우치
+            </h4>
+
+            <p>
+                사용 후 깔끔하게 보관하고<br>
+                간편하게 휴대할 수 있습니다.
+            </p>
+
+        </div>
+
+
+
+        <div class="set-card">
+
+            <span class="set-card-number">
+                03
+            </span>
+
+            <h4>
+                패키지 구성
+            </h4>
+
+            <p>
+                제품을 안전하게 보관할 수 있는<br>
+                깔끔한 패키지로 함께 제공합니다.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     05. HOW TO USE
+========================================================= -->
+
+<section
+    class="section use-section"
+    id="use"
+>
+
+
+    <div class="container">
+
+
+        <div class="section-head">
+
+
+            <span class="section-kicker">
+                DAILY SELF CARE
+            </span>
+
+
+            <h2 class="section-title">
+
+                천천히, 부드럽게<br>
+                나만의 루틴으로
+
+            </h2>
+
+
+            <div class="gold-line"></div>
+
+
+        </div>
+
+
+        <div class="use-intro">
+
+            괄사는 강한 압력보다 피부 상태에 맞는
+            편안한 압력으로 천천히 사용하는 것을 권장합니다.
+            아래 이미지는 사용법을 보여주는 영역이며,
+            실제 사용법 이미지로 교체할 수 있습니다.
+
+        </div>
+
+
+
+        <div class="use-grid">
+
+
+            <!-- =================================================
+                 FACE
+            ================================================= -->
+
+            <article class="use-card">
+
+
+                <div class="use-image">
+
+
+                    <img
+                        src="괄사_얼굴사용.png"
+                        alt="얼굴 괄사 사용 방법"
+                        onerror="
+                            this.style.display='none';
+                            this.nextElementSibling.style.display='block';
+                        "
+                    >
+
+
+                    <span
+                        class="image-placeholder"
+                        style="display:none;"
+                    >
+
+                        얼굴 사용 이미지<br>
+                        괄사_얼굴사용.png
+
+                    </span>
+
+
+                </div>
+
+
+                <div class="use-content">
+
+
+                    <span class="use-number">
+                        01 · FACE
+                    </span>
+
+
+                    <h3>
+                        얼굴
+                    </h3>
+
+
+                    <p>
+
+                        얼굴 중앙에서 바깥쪽 방향으로
+                        천천히 움직여주세요.
+                        피부에 무리한 압력을 주지 않고
+                        편안한 강도로 사용하는 것이 좋습니다.
+
+                    </p>
+
+
+                </div>
+
+
+            </article>
+
+
+
+            <!-- =================================================
+                 NECK
+            ================================================= -->
+
+            <article class="use-card">
+
+
+                <div class="use-image">
+
+
+                    <img
+                        src="괄사_목사용.png"
+                        alt="목 괄사 사용 방법"
+                        onerror="
+                            this.style.display='none';
+                            this.nextElementSibling.style.display='block';
+                        "
+                    >
+
+
+                    <span
+                        class="image-placeholder"
+                        style="display:none;"
+                    >
+
+                        목 사용 이미지<br>
+                        괄사_목사용.png
+
+                    </span>
+
+
+                </div>
+
+
+                <div class="use-content">
+
+
+                    <span class="use-number">
+                        02 · NECK
+                    </span>
+
+
+                    <h3>
+                        목
+                    </h3>
+
+
+                    <p>
+
+                        목 주변은 피부 상태를 확인하면서
+                        부드러운 압력으로 천천히 움직여주세요.
+                        강한 압력은 피해주세요.
+
+                    </p>
+
+
+                </div>
+
+
+            </article>
+
+
+
+            <!-- =================================================
+                 BODY
+            ================================================= -->
+
+            <article class="use-card">
+
+
+                <div class="use-image">
+
+
+                    <img
+                        src="괄사_바디사용.png"
+                        alt="바디 괄사 사용 방법"
+                        onerror="
+                            this.style.display='none';
+                            this.nextElementSibling.style.display='block';
+                        "
+                    >
+
+
+                    <span
+                        class="image-placeholder"
+                        style="display:none;"
+                    >
+
+                        바디 사용 이미지<br>
+                        괄사_바디사용.png
+
+                    </span>
+
+
+                </div>
+
+
+                <div class="use-content">
+
+
+                    <span class="use-number">
+                        03 · BODY
+                    </span>
+
+
+                    <h3>
+                        바디
+                    </h3>
+
+
+                    <p>
+
+                        어깨, 팔, 다리 등 관리하고 싶은 부위에
+                        사용할 수 있습니다.
+                        개인의 피부 상태에 맞춰
+                        편안한 강도로 사용해주세요.
+
+                    </p>
+
+
+                </div>
+
+
+            </article>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             NOTICE
+        ================================================= -->
+
+        <div class="use-notice">
+
+
+            <strong>
+                사용 시 주의사항
+            </strong>
+
+
+            <br>
+
+
+            피부에 상처가 있거나 자극이 있는 부위에는
+            사용하지 마세요.
+            사용 중 통증이나 불편함이 느껴질 경우
+            즉시 사용을 중단해주세요.
+            실제 제품 사용 전 동봉된 안내사항이 있다면
+            해당 내용을 우선 확인해주세요.
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     06. PACKAGING
+========================================================= -->
+
+<section class="section package-section">
+
+
+    <div class="container">
+
+
+        <div class="section-head">
+
+
+            <span class="section-kicker">
+                PACKAGE · STORAGE
+            </span>
+
+
+            <h2 class="section-title">
+
+               일상적인 뷰티 케어에 <br>
+편리하게 활용할 수 있습니다.
+
+            </h2>
+
+
+            <div class="gold-line"></div>
+
+
+            <p class="section-desc">
+
+                도자기 괄사와 전용 파우치를 함께 구성해
+                사용 후에도 깔끔하게 보관하고
+                필요할 때 간편하게 휴대할 수 있습니다.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="package-layout">
+
+
+            <!-- =================================================
+                 PACKAGE PHOTO
+            ================================================= -->
+
+            <div class="package-photo">
+
+
+                <div class="package-photo-frame"></div>
+
+
+                <img
+                    src="괄사1.jpeg"
+                    alt="반가사유상 도자기 괄사 패키지"
+                >
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 PACKAGE TEXT
+            ================================================= -->
+
+            <div class="package-copy">
+
+
+                <h3>
+
+                    사용 후에는 깔끔하게,<br>
+                    외출할 때는 간편하게
+
+                </h3>
+
+
+                <p>
+
+                    반가사유상 도자기 괄사와
+                    전용 보관 파우치가 함께 구성되어
+                    사용하지 않을 때에도 깔끔하게 보관할 수 있습니다.
+
+                </p>
+
+
+                <p style="margin-top:15px;">
+
+                    집에서는 화장대나 서랍에 보관하고,
+                    여행이나 외출 시에는 파우치에 넣어
+                    간편하게 휴대해보세요.
+
+                </p>
+
+
+
+                <div class="package-list">
+
+
+                    <div class="package-item">
+
+
+                        <div class="package-item-number">
+                            01
+                        </div>
+
+
+                        <div>
+
+
+                            <h4>
+                                반가사유상 도자기 괄사
+                            </h4>
+
+
+                            <p>
+
+                                얼굴과 바디 마사지에 활용할 수 있는
+                                메인 뷰티 케어 제품
+
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="package-item">
+
+
+                        <div class="package-item-number">
+                            02
+                        </div>
+
+
+                        <div>
+
+
+                            <h4>
+                                전용 보관 파우치
+                            </h4>
+
+
+                            <p>
+
+                                제품을 깔끔하게 보관하고
+                                간편하게 휴대할 수 있는 구성
+
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="package-item">
+
+
+                        <div class="package-item-number">
+                            03
+                        </div>
+
+
+                        <div>
+
+
+                            <h4>
+                                안전한 포장
+                            </h4>
+
+
+                            <p>
+
+                                도자기 제품의 특성을 고려해
+                                안전하게 포장하여 배송됩니다.
+
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="package-caution">
+
+
+            <strong>
+                PACKAGE
+            </strong>
+
+
+            <br>
+
+
+            반가사유상 도자기 괄사와 전용 보관 파우치가 함께 제공됩니다.
+            도자기 소재의 특성상 충격에 주의하여 보관 및 사용해주세요.
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+
+    <div class="container">
+
+
+        <div class="footer-grid">
+
+
+            <div>
+
+
+                <div class="footer-brand">
+                    KOREAN BEAUTY OBJECT
+                </div>
+
+
+                <p class="footer-text">
+
+                    한국의 전통적인 조형미와<br>
+                    현대적인 뷰티 라이프스타일의 만남.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div>
+
+
+                <div class="footer-title">
+                    CUSTOMER SERVICE
+                </div>
+
+
+                <p class="footer-text">
+
+                    평일 10:00 - 17:00<br>
+                    점심시간 12:00 - 13:00<br>
+                    토 / 일 / 공휴일 휴무
+
+                </p>
+
+
+            </div>
+
+
+
+            <div>
+
+
+                <div class="footer-title">
+                    INFORMATION
+                </div>
+
+
+                <p class="footer-text">
+
+                    이용약관<br>
+                    개인정보처리방침<br>
+                    배송 / 교환 / 반품 안내
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            © 2026 KOREAN BEAUTY OBJECT.
+            ALL RIGHTS RESERVED.
+
+        </div>
+
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- =========================================================
+     TOAST
+========================================================= -->
+
+<div
+    class="toast"
+    id="toast"
+></div>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+
+/* =========================================================
+   PRODUCT DATA
+========================================================= */
+
+const PRODUCT = {
+
+    id:"ban-ga-sa-yu-gua-sha-001",
+
+    name:"반가사유상 도자기 괄사",
+
+    price:27000
+
+};
+
+
+
+/* =========================================================
+   QUANTITY
+========================================================= */
+
+let quantity = 1;
+
+
+function changeQuantity(value){
+
+    quantity += value;
+
+
+    if(quantity < 1){
+
+        quantity = 1;
+
+    }
+
+
+    if(quantity > 99){
+
+        quantity = 99;
+
+    }
+
+
+    document.getElementById("quantity").textContent = quantity;
+
+}
+
+
+
+/* =========================================================
+   TOAST
+========================================================= */
+
+let toastTimer;
+
+
+function showToast(message){
+
+    const toast =
+        document.getElementById("toast");
+
+
+    toast.textContent = message;
+
+
+    toast.classList.add("show");
+
+
+    clearTimeout(toastTimer);
+
+
+    toastTimer = setTimeout(function(){
+
+        toast.classList.remove("show");
+
+    },2200);
+
+}
+
+
+
+/* =========================================================
+   CART
+========================================================= */
+
+function getCart(){
+
+    try{
+
+        return JSON.parse(
+            localStorage.getItem("nbo_cart") || "[]"
+        );
+
+    }catch(error){
+
+        return [];
+
+    }
+
+}
+
+
+
+function saveCart(cart){
+
+    localStorage.setItem(
+        "nbo_cart",
+        JSON.stringify(cart)
+    );
+
+}
+
+
+
+function addToCart(){
+
+    const cart = getCart();
+
+
+    const existing =
+        cart.find(function(item){
+
+            return item.id === PRODUCT.id;
+
+        });
+
+
+    if(existing){
+
+        existing.quantity += quantity;
+
+    }else{
+
+        cart.push({
+
+            id:PRODUCT.id,
+
+            name:PRODUCT.name,
+
+            price:PRODUCT.price,
+
+            quantity:quantity
+
+        });
+
+    }
+
+
+    saveCart(cart);
+
+
+    showToast(
+        PRODUCT.name +
+        " " +
+        quantity +
+        "개가 장바구니에 담겼습니다."
+    );
+
+}
+
+
+
+/* =========================================================
+   WISH
+========================================================= */
+
+function getWish(){
+
+    try{
+
+        return JSON.parse(
+            localStorage.getItem("nbo_wish") || "[]"
+        );
+
+    }catch(error){
+
+        return [];
+
+    }
+
+}
+
+
+
+function saveWish(wish){
+
+    localStorage.setItem(
+        "nbo_wish",
+        JSON.stringify(wish)
+    );
+
+}
+
+
+
+function toggleWish(){
+
+    let wish = getWish();
+
+
+    const button =
+        document.getElementById("wishButton");
+
+
+    const index =
+        wish.indexOf(PRODUCT.id);
+
+
+    if(index === -1){
+
+        wish.push(PRODUCT.id);
+
+
+        button.classList.add("active");
+
+
+        button.textContent =
+            "♥ 찜하기 완료";
+
+
+        showToast(
+            "찜 목록에 추가되었습니다."
+        );
+
+    }else{
+
+        wish.splice(index,1);
+
+
+        button.classList.remove("active");
+
+
+        button.textContent =
+            "♡ 찜하기";
+
+
+        showToast(
+            "찜 목록에서 삭제되었습니다."
+        );
+
+    }
+
+
+    saveWish(wish);
+
+}
+
+
+
+/* =========================================================
+   LOAD WISH
+========================================================= */
+
+function loadWishStatus(){
+
+    const wish = getWish();
+
+
+    const button =
+        document.getElementById("wishButton");
+
+
+    if(wish.includes(PRODUCT.id)){
+
+        button.classList.add("active");
+
+        button.textContent =
+            "♥ 찜하기 완료";
+
+    }
+
+}
+
+
+
+/* =========================================================
+   BUY NOW
+========================================================= */
+
+function buyNow(){
+
+    const total =
+        PRODUCT.price * quantity;
+
+
+    showToast(
+
+        "구매하기 · " +
+        quantity +
+        "개 · " +
+        total.toLocaleString() +
+        "원"
+
+    );
+
+}
+
+
+
+/* =========================================================
+   SECTION SCROLL
+========================================================= */
+
+function goToSection(id){
+
+    const element =
+        document.getElementById(id);
+
+
+    if(element){
+
+        element.scrollIntoView({
+
+            behavior:"smooth",
+
+            block:"start"
+
+        });
+
+    }
+
+}
+
+
+
+/* =========================================================
+   INIT
+========================================================= */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function(){
+
+        loadWishStatus();
+
+    }
+);
+
+
+</script>
+
+
+</body>
+
+</html>
